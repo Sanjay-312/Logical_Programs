@@ -1,4 +1,8 @@
-﻿namespace Logical_Programs
+﻿using System;
+using System.Diagnostics;
+using System.Threading;
+
+namespace Logical_Programs
 {
     internal class Program
     {
@@ -7,7 +11,16 @@
             //Prime.checkForPrime();
             //PerfectNumber.checkPerfectNumber();
             //Fibonacci.readInput();
-            ReverseNumber.reverseNumber();
+            //ReverseNumber.reverseNumber();
+
+            //CouponNumber.getCouponNumber();
+
+            StopWatchClass.getDuration();
+
+
         }
+
+        
+        
     }
 }
